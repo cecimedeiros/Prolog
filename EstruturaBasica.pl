@@ -6,6 +6,7 @@
 % Your program goes here
 
 
+
 /** <examples> Your example queries go here, e.g.
 ?- member(X, [cat, mouse]).
 */
