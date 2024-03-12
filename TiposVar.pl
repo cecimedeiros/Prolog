@@ -1,4 +1,4 @@
-
+% Student exercise profile
 atom(vINCENT),
 atom(variable23),
 atom('João'),
@@ -13,3 +13,4 @@ number(-1),
 number(5.3),
 is_list([]),
 is_list([1, 2, 4, a, 5.6]).
+%
