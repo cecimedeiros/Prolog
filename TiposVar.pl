@@ -7,14 +7,14 @@
 atom(vINCENT),
 atom(variable23),
 atom('João'),
-atom('aulas de lógica'),
+atom('aulas de lógica'),   % sempre começado por minúscula ou entre ''
 var(Joao),
 var(X),
 var(_om),
-var(_),
+var(_),                    % sempre começado por maiúscula ou por _, se apenas _, então anônima
 number(1),
 number(6),
 number(-1),
-number(5.3),
+number(5.3),               % inteiros ou floats (sempre com alguma casa decimal pós .)
 is_list([]),
-is_list([1, 2, 4, a, 5.6]).
+is_list([1, 2, 4, a, 5.6]).  % entre colchetes e separados por ,
