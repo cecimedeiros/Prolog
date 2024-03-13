@@ -22,4 +22,40 @@ come(coelho, grama).
 come(veado, grama).
 
 % Your program goes here
+planta(X).
+/*
+X = alga
+X = grama
+*/
 
+come(raposa, X).
+/*
+X = coelho
+*/
+
+come(raposa, _).
+/*
+true
+*/
+
+come(_, _).
+% Vai citar quantas relações "come" tem (nesse caso, 11)
+/*
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+*/
+
+come(X, grama).
+/*
+X = coelho
+X = veado
+*/
