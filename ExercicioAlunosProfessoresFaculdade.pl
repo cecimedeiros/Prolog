@@ -15,6 +15,4 @@ funcionario(pedro, ufrj).
 
 %regras
 sao_alunos_do_professor(Y,X) :- aluno(Y, Z), professor(X, Z).
-alunos_da_faculdade(Y,X) :- frequenta(Y, X).
-professores_da_faculdade(Y,X) :- funcionario(Y,X).
-associados(Y,X) :- alunos_da_faculdade(Y,X); professores_da_faculdade(Y,X).
+associados_com_faculdade(Y,X) :- frequenta(Y,X); funcionario(Y,X).
